@@ -1,10 +1,12 @@
 const clothesRouter = require("express").Router()
 const{
-    getAllClothes
+    getAllClothes,
+    addClothes
     
 } = require("../controllers/clothes-ctrl")
 
-clothesRouter.get("/clothes",getAllClothes)
+clothesRouter.get("/",getAllClothes)
+clothesRouter.post("/addClothes",addClothes)
 
 
 

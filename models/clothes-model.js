@@ -15,4 +15,5 @@ const clothes = new Schema({
 },)
 
 
+
 module.exports = mongoose.model("clothes",clothes);
