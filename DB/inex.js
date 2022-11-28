@@ -1,16 +1,13 @@
 const mongoose = require("mongoose");
-const DBConcoctionString = process.env.CONNECTIOM_STRING;
 
-mongoose.connect(DBConcoctionString,
-{
-    useNewUrlParser:true,
+const DBConcoctionString = process.env.DBConcoctionString
+
+mongoose.connect(DBConcoctionString, {
+    useNewUrlParser: true,
     useUnifiedTopology:true
+
 })
-.then(()=>console.log("mongoDB Connected..."))
-.catch(error=>{
-    console.log("connection error",error);
-});
+.then(()=>console.log("MongoDB connected"))
+.catch(err=>console.error("Connection error", err.message))
 
-const db =mongoose.connection;
-
-module.exports = db;
+module.exports = mongoose.connection

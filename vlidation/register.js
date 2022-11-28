@@ -1,7 +1,7 @@
-const validator = require("validator");
+const validator = require("validator")
 const isEmpty = require("is-empty");
 
-const validateRegister = (user)=>{  
+module.exports = validateRegister = (user)=>{  
    let errors = {}
     user.name = isEmpty(user.name)? "" : user.name;
     user.lastName = isEmpty(user.lastName)? "" : user.lastName;
@@ -24,4 +24,3 @@ const validateRegister = (user)=>{
    }
 }
 
-module.exports=validateRegister;

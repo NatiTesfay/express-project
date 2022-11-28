@@ -13,9 +13,6 @@ const passwordValidation =(password)=>{
 
 
 
-
-
-
 module.exports = {
     emailValidation,
     passwordValidation
