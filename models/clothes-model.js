@@ -15,5 +15,5 @@ const clothes = new Schema({
 },)
 
 
-
-module.exports = mongoose.model("clothes",clothes);
+const clothesModal = mongoose.model("clothes",clothes)
+module.exports = clothesModal;

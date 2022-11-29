@@ -1,0 +1,16 @@
+use("sportStore")
+
+
+db.sportsEquipment.insertMany([
+{id:1,sportType:"football",nameOfProduct:Soccer shoes
+,company:"nike",price:12,total:85,team_id:1,ur:""},
+{id:2,sportType:"football",nameOfProduct:Soccer shoes
+,company:"React Miler",price:12,total:85,team_id:2,ur:""},
+{id:3,sportType:"basketball",nameOfProduct:basketball,company:"nike",price:12,total:85,team_id:3,ur:""},
+{id:4,sportType:"baseball",nameOfProduct:basketball,company:"nike",price:12,total:85,team_id:4,ur:""},
+{id:5,sportType:"baseball",nameOfProduct:basketball,company:"nike",price:12,total:85,team_id:5:true,ur:""},
+{id:6,sportType:"football",nameOfProduct:Soccer shoes
+,company:"nike",price:12,total:85,team_id:6,ur:""},
+{id:7,sportType:"tenis",nameOfProduct:racket,company:"nike",price:12,total:85,team_id:7,ur:""},
+{id:8,sportType:"tenis",nameOfProduct:racket,company:"nike",price:12,total:85,team_id:8,ur:""},
+])

@@ -1,10 +1,12 @@
 const sportsEquipmentRouter = require("express").Router()
 const{
-    getAllSportsTolls
-    
-} = require("../controllers/sportsEquipment-ctrl")
+    getAllSportsEquipment,
+    addSportsEquipment,
+  }
+ = require("../controllers/sportsEquipment-ctrl")
 
-sportsEquipmentRouter.get("/sportsEquipment",getAllSportsTolls)
+sportsEquipmentRouter.get("/",getAllSportsEquipment)
+sportsEquipmentRouter.post("/sportTools",addSportsEquipment)
 
 
 

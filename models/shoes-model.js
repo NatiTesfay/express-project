@@ -14,4 +14,6 @@ const shoes = new Schema({
 },
 )
 
-module.exports = mongoose.model("shoes",shoes)
+
+const shoesModal = mongoose.model("shoes",shoes)
+module.exports = shoesModal;

@@ -9,4 +9,7 @@ const teams = new Schema({
    teamName:String
 },)
 
-module.exports = mongoose.model("teams",teams)
+
+
+const teamModel = mongoose.model("teams",teams)
+module.exports = teamModel;

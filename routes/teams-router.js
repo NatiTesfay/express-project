@@ -1,10 +1,11 @@
 const teamsRouter = require("express").Router()
 const{
-    getAllTeams
-    
-} = require("../controllers/teams-ctrl")
+    getAllTeam,
+    addTeam,
+  } = require("../controllers/teams-ctrl")
 
-teamsRouter.get("/teams",getAllTeams)
+teamsRouter.get("/",getAllTeam)
+teamsRouter.post("/addTeam",addTeam)
 
 
 

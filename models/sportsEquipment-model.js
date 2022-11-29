@@ -12,4 +12,7 @@ const sportsEquipment = new Schema({
     url:""
 },)
 
-module.exports = mongoose.model("sportsEquipment",sportsEquipment)
+
+
+const sportModal = mongoose.model("sportsEquipment",sportsEquipment)
+module.exports = sportModal;

@@ -1,8 +1,7 @@
 const clothesRouter = require("express").Router()
 const{
     getAllClothes,
-    addClothes
-    
+    addClothes,
 } = require("../controllers/clothes-ctrl")
 
 clothesRouter.get("/",getAllClothes)

@@ -1,11 +1,12 @@
-const clothesRouter = require("express").Router()
+const shoesRouter = require("express").Router()
 const{
-    getAllShoes
-    
+    getAllShoes,
+    addShoes,
 } = require("../controllers/shoes-ctrl")
 
-clothesRouter.get("/shoes",getAllShoes)
+shoesRouter.get("/",getAllShoes)
+shoesRouter.post("/addShoes",addShoes)
 
 
 
-module.exports = clothesRouter;
+module.exports = shoesRouter;

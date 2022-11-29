@@ -1,0 +1,15 @@
+use("sportStore")
+
+db.shoes.insertMany([
+{id:1,typeOfShoes:"style",company:"nike",companyModel:"Air Force 1",price:12,total:85,isOnSale:true,ur:""},
+{id:2,typeOfShoes:"style",company:"nike",companyModel:"React Miler",price:12,total:85,isOnSale:true,ur:""},
+{id:3,typeOfShoes:"style",company:"nike",companyModel:"Air Max 90",price:12,total:85,isOnSale:true,ur:""},
+{id:4,typeOfShoes:"style",company:"nike",companyModel:"Air Max 95",price:12,total:85,isOnSale:true,ur:""},
+{id:5,typeOfShoes:"style",company:"nike",companyModel:"Metcon 7 Training",price:12,total:85,isOnSale:true,ur:""},
+{id:6,typeOfShoes:"style",company:"nike",companyModel:"Air Max 97",price:12,total:85,isOnSale:true,ur:""},
+{id:7,typeOfShoes:"style",company:"nike",companyModel:"Blazer",price:12,total:85,isOnSale:true,ur:""},
+{id:8,typeOfShoes:"style",company:"nike",companyModel:"Air Zoom Pegasus 38",price:12,total:85,isOnSale:true,ur:""},
+{id:9,typeOfShoes:"style",company:"nike",companyModel:"Air Jordan 1 Low ",price:12,total:85,isOnSale:true,ur:""},
+])
+
+db.shoes.find()

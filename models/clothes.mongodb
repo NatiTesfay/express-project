@@ -1,0 +1,25 @@
+use("sportStore")
+
+db.clothes.insertMany([
+{id:1,typeOfClothes:"nba t-shirt",gender:true,company:"nike",companyModel:"lakers",price:12,total:85,isShort:true,isDryFit:true,ur:""},
+{id:2,typeOfClothes:"nba Swingman Jersey",gender:true,company:"nike",companyModel:"lakers",price:130,total:84,isShort:true,isDryFit:true,ur:""},
+{id:3,typeOfClothes:"nba t-shirt",gender:false,company:"nike",companyModel:"lakers",price:50,total:8,isShort:false,isDryFit:true,ur:""},
+{id:4,typeOfClothes:"nba Swingman Jersey",gender:false,company:"nike",companyModel:"lakers",price:124.90,total:85,isShort:true,isDryFit:false,ur:""},
+{id:5,typeOfClothes:"nba t-shirt",gender:false,company:"nike",companyModel:"lakers",price:120,total:8,isShort:false,isDryFit:false,ur:""},
+{id:6,typeOfClothes:"nba t-shirt",gender:true,company:"nike",companyModel:"lakers",price:55,total:58,isShort:true,isDryFit:false,ur:""},
+{id:7,typeOfClothes:"nba t-shirt",gender:true,company:"nike",companyModel:"lakers",price:200,total:18,isShort:false,isDryFit:false,ur:""},
+{id:8,typeOfClothes:"nba t-shirt",gender:true,company:"nike",companyModel:"lakers",price:78,total:10,isShort:true,isDryFit:true,ur:""},
+{id:9,typeOfClothes:"nba t-shirt",gender:false,company:"nike",companyModel:"lakers",price:85,total:5,isShort:false,isDryFit:false,ur:""},
+{id:10,typeOfClothes:"nba t-shirt",gender:false,company:"nike",companyModel:"lakers",price:22,total:100,isShort:false,isDryFit:true,ur:""},
+{id:11,typeOfClothes:"nba t-shirt",gender:true,company:"nike",companyModel:"lakers",price:60,total:1,isShort:false,isDryFit:false,ur:""},
+{id:12,typeOfClothes:"nba t-shirt",gender:true,company:"nike",companyModel:"lakers",price:124.90,total:1,isShort:true,isDryFit:false,ur:""},
+{id:12,typeOfClothes:"nba t-shirt",gender:false,company:"nike",companyModel:"lakers",price:124.90,total:85,isShort:true,isDryFit:true,ur:""},
+{id:13,typeOfClothes:"nba t-shirt",gender:true,company:"nike",companyModel:"lakers",price:180.60,total:8,isShort:false,isDryFit:false,ur:""},
+{id:14,typeOfClothes:"nba t-shirt",gender:false,company:"nike",companyModel:"lakers",price:60.90,total:8,isShort:true,isDryFit:true,ur:""},
+{id:15,typeOfClothes:"nba t-shirt",gender:true,company:"nike",companyModel:"lakers",price:552.90,total:70,isShort:true,isDryFit:false,ur:""},
+{id:16,typeOfClothes:"nba t-shirt",gender:false,company:"nike",companyModel:"lakers",price:78.90,total:2,isShort:true,isDryFit:false,ur:""},
+{id:17,typeOfClothes:"nba t-shirt",gender:true,company:"nike",companyModel:"lakers",price:150.90,total:10,isShort:true,isDryFit:false,ur:""},
+{id:18,typeOfClothes:"nba t-shirt",gender:true,company:"nike",companyModel:"lakers",price:199.90,total:55,isShort:true,isDryFit:false,ur:""},
+])
+
+db.clothes.find()

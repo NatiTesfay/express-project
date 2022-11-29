@@ -21,6 +21,9 @@ module.exports = validateRegister = (user)=>{
    return{
     errors,
     isValid:isEmpty(errors)
+    //isValid = true or false//
    }
 }
+
+
 
